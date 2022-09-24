@@ -1,0 +1,37 @@
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            height: 94vh;
+            margin: auto;
+        }
+    </style>
+    <script>
+        var images = [], x = 0; pcount = 0; period = 6;
+        images[0] = "https://vistar-capture.s3.cern.ch/lhc1.png";
+        images[1] = "https://vistar-capture.s3.cern.ch/lhc3.png";
+        images[2] = "https://vistar-capture.s3.cern.ch/atlas.png";
+        window.setInterval(function()
+        {
+            pcount = (pcount >= period) ? 1 : pcount + 1;
+            if (pcount === 1) {
+                x = (x === images.length - 1) ? 0 : x + 1;
+            }
+            document.getElementById('img').src = images[x]+"?random="+new Date().getTime();
+        }, 5000);
+    </script>
+</head>
+<body>
+<div class="imgbox">
+    <img id="img" class="center-fit" src='https://vistar-capture.s3.cern.ch/atlas.png'>
+</div>
+</body>
+</html>
