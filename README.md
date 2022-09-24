@@ -10,7 +10,7 @@ A simple HTML showing the real-time LHC status. It can be used as a screen saver
 
 Choose your favorite images from here: https://op-webtools.web.cern.ch/vistar/vistars.php 
 
-Right-click -> Copy Image Address to get the image url. Then then add it to the images list.
+Right-click -> Copy Image Address to get the image url. Then add it to the images list.
 
 ## Preview
 
