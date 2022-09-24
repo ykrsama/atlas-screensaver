@@ -1,4 +1,4 @@
-A simple HTML showing real-time LHC status. It can be used as a screen saver.
+A simple HTML showing the real-time LHC status. It can be used as a screen saver.
 
 ## Dependency
 
