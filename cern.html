@@ -15,7 +15,7 @@
         }
     </style>
     <script>
-        var refresh_interval = 5000; // Images switching period = refresh_iterval * switch_period (ms)
+        var refresh_interval = 5000; // Images switching time = refresh_iterval * switch_period (ms)
         var switch_period = 6;
         var images = [], x = 0; pcount = 1;
         // Images list
@@ -30,7 +30,7 @@
             if (pcount === 1) {
                 x = (x === images.length - 1) ? 0 : x + 1;
             }
-            document.getElementById("img").src = images[x]+"?random="+new Date().getTime();
+            document.getElementById("img").src = images[x] + "?random=" + new Date().getTime();
         }, refresh_interval);
     </script>
 </head>
