@@ -1,6 +1,8 @@
+A simple HTML screen saver showing real-time LHC status. 
+
 # Usage
 
-## MacOS
+## macOS
 
 ```bash
 brew install webviewscreensaver
