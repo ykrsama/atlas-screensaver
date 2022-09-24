@@ -1,13 +1,7 @@
 A simple HTML showing real-time LHC status. It can be used as a screen saver.
 
-# Dependency
+## Dependency
 
-## macOS
+**macOS**: https://github.com/liquidx/webviewscreensaver
 
-```bash
-brew install webviewscreensaver
-```
-
-## Windows
-
-https://github.com/cwc/web-page-screensaver
+**Windows**: https://github.com/cwc/web-page-screensaver
