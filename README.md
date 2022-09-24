@@ -8,7 +8,7 @@ Any HTML screen saver software, i.e.
 
 **Windows**: https://github.com/cwc/web-page-screensaver
 
-## Customize
+## Customization
 
 Choose your favorite images from here: https://op-webtools.web.cern.ch/vistar/vistars.php 
 
