@@ -1,8 +1,10 @@
+# atlas-screensaver
+
 A simple HTML showing the real-time LHC status. It can be used as a screen saver.
 
 ## Dependency
 
-Any HTML screen saver software, i.e.
+Any webpage screen saver software, i.e.
 
 **macOS**: https://github.com/liquidx/webviewscreensaver
 
